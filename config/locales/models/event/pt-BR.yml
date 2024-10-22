@@ -12,7 +12,7 @@ pt-BR:
           note: Nota
           evolution_api_message: Mensagem de Whatsapp
           activity: Atividade
-          chatwoot_message: Mensagem do Chatwoot
+          chatwoot_message: Mensagem do GeniusChat
         kind: Tipo
         content: 'Descrição'
         scheduled_at: Agendar

@@ -2,7 +2,7 @@
 ![Logo](.github/logo.png)
 
 
-Woofed CRM is a Open source CRM Software. 
+PriceConnect CRM is a Open source CRM Software. 
 
 ## ❗Under development ❗
 

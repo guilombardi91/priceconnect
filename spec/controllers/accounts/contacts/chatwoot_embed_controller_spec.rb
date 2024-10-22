@@ -91,7 +91,7 @@ RSpec.describe Accounts::Contacts::ChatwootEmbedController, type: :request do
           it 'should render to new embed chatwoot page' do
             post("/accounts/#{account.id}/contacts/chatwoot_embed/search", params:)
             expect(response).to have_http_status(200)
-            expect(response.body).to include('This contact does not exist in Woofed CRM. Would you like to create it?')
+            expect(response.body).to include('This contact does not exist in PriceConnect CRM. Would you like to create it?')
           end
         end
         context 'when there is email on chatwoot_params' do
@@ -101,7 +101,7 @@ RSpec.describe Accounts::Contacts::ChatwootEmbedController, type: :request do
           it 'should render to new embed chatwoot page' do
             post("/accounts/#{account.id}/contacts/chatwoot_embed/search", params:)
             expect(response).to have_http_status(200)
-            expect(response.body).to include('This contact does not exist in Woofed CRM. Would you like to create it?')
+            expect(response.body).to include('This contact does not exist in PriceConnect CRM. Would you like to create it?')
           end
         end
         context 'when there is phone_number on chatwoot_params' do
@@ -111,7 +111,7 @@ RSpec.describe Accounts::Contacts::ChatwootEmbedController, type: :request do
           it 'should render to new embed chatwoot page' do
             post("/accounts/#{account.id}/contacts/chatwoot_embed/search", params:)
             expect(response).to have_http_status(200)
-            expect(response.body).to include('This contact does not exist in Woofed CRM. Would you like to create it?')
+            expect(response.body).to include('This contact does not exist in PriceConnect CRM. Would you like to create it?')
           end
         end
       end
@@ -136,7 +136,7 @@ RSpec.describe Accounts::Contacts::ChatwootEmbedController, type: :request do
       it 'should redirect to new embed chatwoot page' do
         get("/accounts/#{account.id}/contacts/chatwoot_embed/new", params:)
         expect(response).to have_http_status(200)
-        expect(response.body).to include('This contact does not exist in Woofed CRM. Would you like to create it?')
+        expect(response.body).to include('This contact does not exist in PriceConnect CRM. Would you like to create it?')
       end
     end
   end

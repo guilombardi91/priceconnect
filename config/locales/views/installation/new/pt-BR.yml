@@ -2,6 +2,6 @@ pt-BR:
   views:
     installation:
       new:
-        join_crm: "Junte-se ao %{crm_name}"
+        join_crm: "Junte-se ao PriceConnect CRM"
         step_away_from_growth: "Você está a um passo da sua empresa crescer."
         login_with_provider: "Faça login com %{provider}"

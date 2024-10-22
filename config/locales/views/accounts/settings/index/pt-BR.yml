@@ -3,11 +3,11 @@ pt-BR:
     accounts:
       settings:
         index:
-          integrate_with_other_apps: 'Integre o Woofed com outras aplicações da sua empresa'
+          integrate_with_other_apps: 'Integre o PriceConnect com outras aplicações da sua empresa'
           whatsapp: 'Whatsapp'
           whatsapp_configuration: 'Configure sua conexão com whatsapp'
-          chatwoot: 'Chatwoot'
-          chatwoot_configuration: 'Configure sua conexão com chatwoot'
+          chatwoot: 'GeniusChat'
+          chatwoot_configuration: 'Configure sua conexão com o GeniusChat'
           webhooks: 'Webhooks'
           webhooks_configuration: 'Configure sua conexão com webhooks'
           artificial_intelligence: 'Inteligência artificial'
